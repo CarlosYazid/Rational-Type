@@ -1,2 +1,2 @@
-# Rational-Type
+# Rational Type
 Api for Rational Type
