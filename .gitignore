@@ -1,0 +1,7 @@
+.vscode
+.scala-build
+.idea
+.metals
+*.class
+*.log
+hs_err_pid*
