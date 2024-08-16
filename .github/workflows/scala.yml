@@ -13,5 +13,5 @@ jobs:
     - uses: olafurpg/setup-scala@v14
       with:
         java-version: openjdk@1.14
-    - name: Compile
-      run: sbt compile
+    #- name: Compile
+      #run: sbt compile
