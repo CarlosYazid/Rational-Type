@@ -1,0 +1,11 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/ebaskoro/devcontainer-features/scala:1": {
+      "installSbt" : true
+    },
+    "ghcr.io/devcontainers/features/java:1": {
+      "installMaven" : true
+    }
+  }
+}
