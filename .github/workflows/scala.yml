@@ -1,0 +1,17 @@
+name: setup-scala
+on:
+  push:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    #runs-on: windows-latest
+    steps:
+    #- name: Configure git
+      #run: "git config --global core.autocrlf false"
+      #shell: bash
+    - uses: actions/checkout@v1
+    - uses: olafurpg/setup-scala@v14
+      with:
+        java-version: openjdk@1.14
+    - name: Compile
+      run: sbt compile
